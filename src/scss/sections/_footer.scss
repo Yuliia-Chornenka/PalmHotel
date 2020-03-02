@@ -1,0 +1,74 @@
+@import "../variables";
+
+.footer {
+  height: 360px;
+  margin-top: 85px;
+  background-color: $light-black;
+  display: flex;
+  align-items: center;
+
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    height: 280px;
+    width: 100%;
+    color: white;
+  }
+
+  &-about {
+    &-wrapper {
+      width: 43%;
+    }
+    &-description {
+      font-size: 14px;
+      text-indent: 30px;
+      &:first-of-type {
+        font-size: 18px;
+        font-style: italic;
+        margin-top: 0;
+      }
+    }
+  }
+  &-map{
+    width: 100%;
+   &-wrapper {
+     width: 31%;
+     text-align: center;
+   }
+  }
+  &-social-media{
+   &-wrapper {
+     width: 26%;
+     text-align: center;
+   }
+    &-link {
+      width: 40px;
+      height: 40px;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      margin: 8px;
+      border-radius: 50%;
+      opacity: 1;
+      transition: opacity 0.1s;
+      &:hover {
+        opacity: 0.75;
+      }
+      &-icon {
+        height: 15px;
+      }
+      &-facebook {
+        background: #3b5998;
+      }
+      &-twitter {
+        background: #55acee;
+      }
+      &-googleplus {
+        background: #dd4b39;
+      }
+      &-linkedin {
+        background: #0077b5;
+      }
+    }
+  }
+}

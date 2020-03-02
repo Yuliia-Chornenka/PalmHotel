@@ -1,0 +1,68 @@
+@import "../variables";
+
+.restaurant {
+  &-section {
+    min-height: 862px;
+  }
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &-menu-example {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 45%;
+    height: 70px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 20px -12px black;
+    &:hover {
+      background-color: $main-color;
+    }
+
+    &:hover .restaurant-menu-example-ingredients {
+      color: white;
+    }
+
+    &-img {
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+    }
+
+    &-description {
+      width: 70%;
+    }
+
+    &-name {
+      margin: 0 25px 10px 15px;
+      font-size: 19px;
+      font-weight: 600;
+      text-transform: capitalize;
+      letter-spacing: 0.8px;
+    }
+
+    &-ingredients {
+      margin: 0 25px 10px 15px;
+      color: gray;
+      font-size: 16px;
+    }
+
+    &-price {
+      font-size: 32px;
+      margin: 0;
+    }
+  }
+  &-menu-error-sort {
+    visibility: hidden;
+    margin: -8px 0 10px 0;
+    text-align: center;
+    font-size: 13px;
+    color: red;
+    font-weight: 500;
+  }
+}

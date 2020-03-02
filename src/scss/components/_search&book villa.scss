@@ -1,0 +1,90 @@
+@import "../variables";
+
+
+.modal-book-villas {
+  &-wrapper {
+    width: 750px;
+    height: 280px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 15px 30px;
+    border-radius: 12px;
+  }
+
+  &-photo {
+    width: 100%;
+    height: 220px;
+    border-top-left-radius: 12px;
+
+    &-wrapper {
+      width: 50%;
+      text-align: center;
+    }
+  }
+
+  &-name {
+    display: block;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 600;
+    color: $main-color;
+    letter-spacing: 2px;
+    margin-top: 9px;
+    &::selection {
+      color: white;
+    }
+  }
+
+  &-price {
+    font-size: 18px;
+    color: $main-color;
+    &::selection {
+      color: white;
+    }
+  }
+
+  &-description {
+    &-wrapper {
+      width: 50%;
+      padding: 0 20px;
+    }
+
+    &-icon {
+      height: 35px;
+      position: relative;
+      top: 10px;
+      margin-right: 5px;
+
+      &-third {
+        height: 40px;
+        top: 14px;
+      }
+    }
+    &-text {
+      font-weight: 500;
+      margin-right: 12px;
+    }
+    &-discount {
+      font-weight: 400;
+      font-size: 14px;
+      font-style: italic;
+      margin: 0;
+    }
+  }
+
+  &-subtotal {
+    font-size: 18px;
+    color: $main-color;
+    font-style: italic;
+    margin-left: 12px;
+    letter-spacing: 1px;
+    &::selection {
+      color: white;
+    }
+  }
+  &-btn {
+    text-align: right;
+    margin-top: 0;
+  }
+}

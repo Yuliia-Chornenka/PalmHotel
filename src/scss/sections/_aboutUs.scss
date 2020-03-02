@@ -1,0 +1,42 @@
+@import "../variables";
+
+
+.about {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+  }
+  &-information {
+    width: 38%;
+    text-indent: 25px;
+    text-align: justify;
+    &-title {
+      font-size: 42px;
+      font-weight: 500;
+      margin: 0;
+    }
+    &-second-paragraph {
+      display: none;
+    }
+  }
+  &-img {
+    width: 50%;
+    margin-right: 80px;
+    height: 515px;
+    &-round {
+      position: absolute;
+      width: 230px;
+      height: 230px;
+      border-radius: 50%;
+      box-shadow: 0 0 0 10px white;
+      bottom: -40px;
+      right: 20px;
+    }
+  }
+}
+
+.show-more-btn {
+  margin-left: 25px;
+}

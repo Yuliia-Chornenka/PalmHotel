@@ -1,0 +1,657 @@
+@import "variables";
+
+
+@media screen and (min-width: 320px) and (max-width: 960px) {
+
+  .container {
+    max-width: 600px;
+  }
+
+  .navbar {
+    align-items: center;
+
+    &-menu {
+      display: none;
+    }
+  }
+
+  .scroll-navbar {
+    visibility: hidden;
+  }
+
+  .navbar {
+    &-burger-wrapper {
+      display: inline-block;
+    }
+  }
+
+  .logo {
+    &-img {
+      height: 100px;
+    }
+
+    &-name {
+      font-size: 22px;
+      left: -40px;
+    }
+  }
+
+  .header {
+    &-section {
+      height: 530px;
+      background: url(../img/header/slider_1.jpg) fixed 50% 0 no-repeat;
+    }
+
+    &-title {
+      font-size: 32px;
+    }
+
+    &-subtitle {
+      font-size: 14px;
+    }
+
+    &-slider-arrow {
+      height: 26px;
+
+      &-prev {
+        margin-left: -20px;
+      }
+
+      &-next {
+        margin-right: -20px;
+      }
+    }
+  }
+
+  .search {
+    &-container {
+      height: 200px;
+      width: 70%;
+      left: 15%;
+      bottom: -90px;
+    }
+
+    &-form {
+      flex-wrap: wrap;
+
+      &-btn {
+        width: 80px;
+        height: 30px;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+
+      &-error-date {
+        font-size: 13px;
+        font-weight: 400;
+      }
+    }
+
+    &-input-date {
+      width: 150px;
+      height: 15px;
+      padding: 4px;
+      font-size: 14px;
+    }
+
+    &-select {
+      width: 80px;
+      height: 30px;
+      padding: 4px;
+      font-size: 14px;
+    }
+  }
+
+  .about {
+    &-img {
+      display: none;
+
+      &-round {
+        display: none;
+      }
+    }
+
+    &-information {
+      width: 90%;
+      margin: 0 auto;
+
+      &-title {
+        font-size: 34px;
+      }
+    }
+  }
+
+  .filter {
+    &-wrapper {
+      width: 300px;
+      margin: 0 auto;
+    }
+
+    &-btn {
+      padding: 2px 8px;
+      font-size: 15px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .section-title {
+    font-size: 40px;
+    color: $main-color;
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 30px;
+
+    &::after {
+      display: none;
+    }
+  }
+
+  .our-villas {
+    &-example {
+      width: 100%;
+      height: 510px;
+
+      &-price {
+        height: 65px;
+        width: 65px;
+        top: 160px;
+
+        &-quantity {
+          font-size: 22px;
+        }
+      }
+
+      &-photo-wrapper {
+        height: 250px;
+      }
+
+      &-name {
+        font-size: 15px;
+      }
+
+      &-description {
+        font-size: 14px;
+      }
+
+      &-icon {
+        height: 25px;
+      }
+
+      &-btn {
+        width: 110px;
+        font-size: 18px;
+      }
+    }
+  }
+
+  .services {
+    &-item {
+      width: 38%;
+      margin: 20px 0 0 0;
+    }
+
+    &-description {
+      display: none
+    }
+
+    &-icon {
+      height: 80px;
+    }
+
+    &-price-icon {
+      top: -20px;
+    }
+
+    &-name {
+      font-size: 18px;
+    }
+  }
+
+  .promo {
+    &-wrapper {
+      justify-content: center;
+      height: 175px;
+      background: url(../img/header/slider_1.jpg) fixed 61% 0 no-repeat;
+    }
+
+    &-time {
+      display: none;
+    }
+
+    &-name {
+      width: 80%;
+      justify-content: center;
+      text-align: center;
+    }
+
+    &-book-btn {
+      margin: 0 auto;
+    }
+  }
+
+  .search {
+    &-input.input {
+      width: 280px;
+      margin: 0;
+    }
+
+    &-data-form {
+      flex-wrap: wrap;
+    }
+  }
+
+
+  .filter {
+    &-wrapper {
+      flex-wrap: wrap;
+    }
+
+    &-btn-menu {
+      padding: 8px 15px;
+
+      &-icon {
+        display: none;
+      }
+    }
+  }
+
+  .restaurant {
+    &-sort-select {
+      font-weight: 500;
+    }
+
+    &-menu-example {
+      height: 80px;
+      width: 99%;
+      padding: 11px;
+
+      &-name {
+        font-size: 15px;
+        margin: 0 18px 5px 10px;
+        letter-spacing: 0;
+      }
+
+      &-price {
+        font-size: 24px;
+      }
+
+      &-ingredients {
+        font-size: 13px;
+        margin: 0 18px 5px 10px;
+      }
+    }
+  }
+
+  .gallery {
+    &-container {
+      min-height: 800px;
+    }
+
+    &-img {
+      width: 250px;
+      height: 250px;
+
+      &-big {
+        width: 250px;
+        height: 150px;
+      }
+    }
+  }
+
+
+  .review {
+    &-carousel {
+      width: 280px;
+    }
+
+    &-gallery {
+      width: 280px;
+    }
+
+    &-wrapper {
+      width: 260px;
+    }
+
+    &-arrow {
+      &-back {
+        left: 15px;
+        height: 15px;
+      }
+
+      &-next {
+        right: 15px;
+        height: 15px;
+      }
+    }
+
+    &-add-btn.btn {
+      left: 92px;
+      width: 150px;
+    }
+  }
+
+  .contacts {
+    &-container {
+      flex-wrap: wrap;
+    }
+
+    &-map {
+      width: 99%;
+      height: 300px;
+    }
+
+    &-information {
+      width: 99%;
+
+      &-item {
+        margin-left: 35px;
+      }
+
+      &-name {
+        font-size: 19px;
+      }
+
+      &-description {
+        font-size: 14px;
+      }
+
+      &-icon {
+        height: 25px;
+        left: -30px;
+      }
+    }
+  }
+
+  .footer {
+    height: 240px;
+
+    &-container {
+      height: 220px;
+    }
+
+    &-logo-name {
+      left: -15px;
+    }
+
+    &-about {
+      &-wrapper {
+        width: 58%;
+      }
+
+      &-description {
+        display: none;
+      }
+    }
+
+    &-map-wrapper {
+      display: none;
+    }
+
+    &-social-media-wrapper {
+      width: 42%;
+    }
+  }
+
+  .form-error-message {
+    font-size: 10px;
+  }
+  .input {
+    height: 40px;
+    width: 250px;
+  }
+  #register-form, #login-form, #review-form {
+    padding: 0;
+  }
+
+  .submit-btn {
+    padding: 8px 12px;
+  }
+}
+
+
+@media screen and (min-width: 640px) and (max-width: 960px) {
+
+  .container {
+    max-width: 900px;
+  }
+
+  .scroll-navbar {
+    visibility: visible;
+
+    &-hotel-name {
+      display: none;
+    }
+
+    &-menu-link {
+      font-size: 11px;
+      letter-spacing: 0;
+
+      &-rooms {
+        padding-top: 9px;
+      }
+    }
+  }
+
+  .section-title::after {
+    display: block;
+    left: 35%;
+  }
+
+  .header {
+    &-title {
+      font-size: 48px;
+    }
+
+    &-slider-arrow {
+      height: 30px;
+
+      &-prev {
+        margin-left: -10px;
+      }
+
+      &-next {
+        margin-right: -10px;
+      }
+    }
+  }
+
+  .search {
+    &-container {
+      width: 80%;
+      left: 10%;
+    }
+
+    &-input-date {
+      width: 200px;
+      height: 30px;
+      padding: 8px;
+      font-size: 16px;
+    }
+
+    &-select {
+      height: 50px;
+      padding: 8px;
+      font-size: 18px;
+    }
+
+    &-form-btn {
+      width: 150px;
+      height: 50px;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+  }
+
+
+  .filter-wrapper {
+    flex-wrap: nowrap;
+  }
+
+  .our-villas {
+    &-example {
+      width: 48%;
+      height: 500px;
+      &-name {
+        font-size: 16px;
+      }
+
+      &-photo-wrapper {
+        height: 250px;
+      }
+
+      &-description {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .services {
+    &-item {
+      width: 28%;
+    }
+
+    &-price-icon {
+      right: 40px;
+    }
+  }
+
+  .restaurant-menu-example {
+    height: 88px;
+    width: 45%;
+
+    &-name {
+      font-size: 17px;
+    }
+  }
+
+  .gallery-img {
+    width: 300px;
+    height: 300px;
+
+    &-big {
+      width: 600px;
+      height: 300px;
+    }
+  }
+
+  .review {
+    &-carousel {
+      width: 560px;
+    }
+
+    &-gallery {
+      width: 560px;
+      margin: 0 auto;
+    }
+
+    &-arrow {
+      &-back {
+        left: 5px;
+        height: 30px;
+      }
+
+      &-next {
+        right: 5px;
+        height: 30px;
+      }
+    }
+    &-add-btn.btn {
+      left: 224px;
+    }
+  }
+  .contacts {
+    &-map {
+      width: 49%;
+    }
+
+    &-information {
+      width: 49%;
+
+      &-name {
+        margin-bottom: 0;
+        margin-top: 14px;
+      }
+
+      &-description {
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+    }
+  }
+  .footer {
+    height: 160px;
+
+    &-container {
+      height: 130px;
+    }
+  }
+}
+
+
+@media screen and (min-width: 961px) and (max-width: 1199px) {
+
+  .container {
+    max-width: 920px;
+  }
+
+  .scroll-navbar-menu-link {
+    font-size: 13px;
+  }
+
+  .section-title::after {
+    left: 38%;
+  }
+
+  .navbar-menu {
+    width: 648px;
+
+    &-link {
+      letter-spacing: 0;
+    }
+  }
+
+  .search-container {
+    width: 80%;
+    left: 10%;
+  }
+
+  .our-villas {
+    &-example {
+      width: 48%;
+      height: 500px;
+
+      &-photo-wrapper {
+        height: 250px;
+      }
+    }
+  }
+
+  .restaurant-menu-example {
+    height: 76px;
+
+    &-name {
+      font-size: 17px;
+    }
+  }
+
+  .gallery-img {
+    width: 307px;
+
+    &-big {
+      width: 614px;
+    }
+  }
+
+  .review-arrow {
+    &-back {
+      left: -10px;
+    }
+
+    &-next {
+      right: -10px;
+    }
+  }
+}
+

@@ -1,0 +1,41 @@
+@import "../variables";
+
+.navbar {
+  &-small-screen {
+
+  }
+  &-burger-wrapper {
+    display: none;
+    background-color: $main-color;
+    position: relative;
+    z-index: 10;
+    padding: 12px;
+  }
+}
+
+.navbar-burger-line {
+  height: 3px;
+  width: 30px;
+  margin-bottom: 4px;
+  background-color: white;
+}
+
+.dropdown-menu {
+  display: none;
+  background-color: #fafafa;
+  border: 1px solid #e1e1e1;
+  position: absolute;
+  right: 0;
+  top: 79px;
+  z-index: 10;
+}
+
+.dropdown-menu-link {
+  display: flex;
+  text-decoration: none;
+  color: #ff6138;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 75px 8px 20px;
+  border: 1px solid #e1e1e1;
+}

@@ -1,0 +1,169 @@
+@import "../variables";
+
+.header {
+  padding-top: 35px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 10;
+
+  &-section {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin-bottom: 155px;
+    background: url("../img/header/slider_1.jpg") fixed 50% -40px no-repeat;
+    background-size: cover;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+    &:hover .header-slider-arrow {
+      visibility: visible;
+      transition: 0.6s all ease;
+    }
+  }
+
+  &-title {
+    text-transform: capitalize;
+    font-weight: 400;
+    color: white;
+    font-size: 68px;
+    margin: 90px 0 -10px 0;
+  }
+
+  &-subtitle {
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 6px;
+    word-spacing: 5px;
+  }
+
+  &-slider-arrow {
+    cursor: pointer;
+    visibility: hidden;
+
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    &-prev {
+      float: left;
+      margin: -80px 0 0 0;
+      padding: 5px 8px 5px 5px;
+    }
+
+    &-next {
+      float: right;
+      margin: -80px 0 0 0;
+      padding: 5px 5px 5px 8px;
+    }
+  }
+  &-login {
+    &-wrapper {
+      display: flex;
+      position: absolute;
+      right: 10px;
+    }
+  }
+  &-btn.btn {
+    margin-right: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 18px;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  &-arrow-down {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 3px;
+  }
+
+  &-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 670px;
+    margin-top: 60px;
+
+    &-link {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 17px;
+      letter-spacing: 1px;
+      height: 24px;
+
+      &:hover {
+        color: white;
+      }
+
+      &-rooms {
+        height: 40px;
+        cursor: pointer;
+        position: relative;
+
+        &:hover .submenu {
+          visibility: visible;
+          top: 40px;
+          transition: all 0.3s;
+        }
+      }
+    }
+    &-vertical-line {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 17px;
+    }
+  }
+}
+
+
+.slider-item {
+  animation-name: header-slider;
+  animation-duration: 1s;
+}
+
+@keyframes header-slider {
+  from {
+    opacity: 0.5
+  }
+  to {
+    opacity: 1
+  }
+}
+
+
+.user-greeting {
+  display: none;
+  text-align: right;
+  color: white;
+  font-size: 18px;
+  margin-top: -15px;
+  position: absolute;
+  right: 0;
+  &-name {
+    font-size: 20px;
+    margin-right: 10px;
+    color: $main-color;
+    &::selection {
+      color: white;
+    }
+  }
+}
+
+

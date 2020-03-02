@@ -1,0 +1,29 @@
+@import "../variables";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: $dark-white;
+  color: $light-black;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+li {
+  list-style: none;
+}
+
+::selection {
+  background-color: $main-color;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+/*For polyfill*/
+template {
+  display: none !important;
+}

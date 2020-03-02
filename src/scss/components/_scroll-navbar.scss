@@ -1,0 +1,74 @@
+@import "../variables";
+
+.scroll-navbar {
+  display: none;
+  animation-name: scroll-navbar-opacity;
+  animation-duration: 1s;
+  position: fixed;    /* added to support older browsers */
+  left: 0;
+  right: 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  justify-content: space-around;
+  background-color: white;
+  padding: 0 40px;
+  box-shadow: 0 3px 5px 0 #dcdcdc;
+  &-menu {
+    display: flex;
+    justify-content: space-between;
+    &-link {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $light-black;
+      font-size: 14px;
+      padding: 15px 10px;
+      letter-spacing: 2px;
+      font-weight: 500;
+      &:hover {
+        background-color: $main-color;
+        color: white;
+      }
+      &-rooms {
+        padding: 12px 10px;
+        height: 30px;
+        &:hover {
+          background-color: $main-color;
+          color: white;
+        }
+        &:hover .scroll-navbar-menu-link{
+          color: white;
+        }
+        &:hover .scroll-submenu {
+          visibility: visible;
+          top: 54px;
+          transition: all 0.3s;
+        }
+      }
+    }
+  }
+  &-hotel-name {
+    text-decoration: none;
+    color: $main-color;
+    font-size: 22px;
+    padding: 9px 10px;
+    font-weight: 500;
+    &::selection {
+      color: white;
+    }
+  }
+  &-arrow-down {
+    font-size: 12px;
+    margin-left: -12px;
+  }
+}
+
+
+@keyframes scroll-navbar-opacity{
+  from {
+    opacity: 0.5
+  }
+  to {
+    opacity: 1
+  }
+}

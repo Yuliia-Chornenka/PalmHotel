@@ -1,0 +1,29 @@
+@import "../variables";
+
+.section-title {
+  text-align: center;
+  font-size: 52px;
+  font-weight: 200;
+  position: relative;
+  margin: 85px 0 50px 0;
+}
+
+/*Doesn't work in IE*/
+
+//.section-title::after {
+//  content: url('userLogin:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="300" height="15"><line x1="0" y1="0" x2="180" y2="0" stroke="lightsalmon" stroke-width="6" />
+//     <line x1="40" y1="8" x2="220" y2="8" stroke="lightsalmon" stroke-width="3"/></svg>');
+//  position: absolute;
+//  top: 30px;
+//  left: 42%;
+//  animation-name: svg-lines;
+//  animation-duration: 2.5s;
+//}
+
+
+.section-title::after {
+  content: url('../img/line.png');
+  position: absolute;
+  top: 28px;
+  left: 41%;
+}

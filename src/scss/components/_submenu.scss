@@ -1,0 +1,42 @@
+@import "../variables";
+
+.submenu {
+  display: inline-block;
+  visibility: hidden;
+  background-color: black;
+  width: 180px;
+  padding: 15px 15px 15px 20px;
+  line-height: 2;
+  border-radius: 8px;
+  margin: 0 auto;
+  position: absolute;
+  left: -20px;
+  top: 60px;
+  z-index: 100;
+  &::before {
+    content: "";
+    border-top: 12px solid black;
+    border-right: 12px solid transparent;
+    transform: rotate(45deg);
+    position: absolute;
+    top: -5px;
+    left: 30px;
+  }
+  &-link {
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    line-height: 2.5;
+    &:hover {
+      color: $main-color;
+    }
+  }
+}
+
+.scroll-submenu {
+  top: 74px;
+}

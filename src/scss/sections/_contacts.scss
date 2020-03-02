@@ -1,0 +1,31 @@
+@import "../variables";
+
+.contacts {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &-information {
+    width: 38%;
+    &-item {
+      position: relative;
+    }
+    &-icon {
+      height: 30px;
+      position: absolute;
+      top: 0;
+      left: -40px;
+    }
+    &-name {
+      font-size: 22px;
+      font-weight: 500;
+      font-style: oblique;
+      margin-bottom: 10px;
+    }
+    &-description {
+      font-size: 15px;
+      color: $light-black;
+      margin-bottom: 5px;
+    }
+  }
+}

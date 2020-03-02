@@ -1,0 +1,93 @@
+@import "../variables";
+
+.review {
+  &-section {
+    margin-bottom: 120px;
+    text-align: center;
+  }
+  &-carousel {
+    position: relative;
+    width: 870px;
+  }
+  &-gallery {
+    width: 870px;
+    overflow: hidden;
+  }
+  &-container {
+    display: flex;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 10px 0;
+    height: 325px;
+    width: 9999px;
+    transition: 0.5s all;
+  }
+  &-arrow-back {
+    height: 50px;
+    position: absolute;
+    left: -20px;
+    top: 136px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &-arrow-next {
+    height: 50px;
+    position: absolute;
+    right: -20px;
+    top: 136px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  &-wrapper {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 270px;
+    height: 310px;
+    padding: 18px;
+    margin: 0 10px;
+    box-shadow: 3px 0 20px -12px black;
+    border: 1px solid transparent;
+    &:hover {
+      border: 1px solid $main-color;
+      transition: 0.4s all;
+    }
+  }
+  &-rate {
+    font-size: 17px;
+    text-align: center;
+    font-weight: 500;
+    color: $main-color;
+    margin-top: 0;
+    &::selection {
+      color: white;
+    }
+  }
+  &-name {
+    font-size: 14px;
+    color: grey;
+    text-align: right;
+    font-style: italic;
+    font-weight: 500;
+    &::selection {
+      color: white;
+    }
+  }
+  &-text {
+    font-size: 14px;
+    text-align: center;
+  }
+  &-add-btn.btn {
+    visibility: hidden;
+    position: absolute;
+    bottom: -60px;
+    left: 360px;
+    width: 200px;
+  }
+  &-textarea.input {
+    height: 100px;
+    resize: none;
+  }
+}
+

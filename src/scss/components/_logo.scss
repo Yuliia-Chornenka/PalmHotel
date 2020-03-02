@@ -1,0 +1,18 @@
+.logo {
+  text-decoration: none;
+
+  &-name {
+    display: inline-block;
+    color: white;
+    font-size: 28px;
+    font-weight: 300;
+    position: relative;
+    top: -25px;
+    left: -50px;
+  }
+
+  &-img {
+    display: inline-block;
+    height: 120px;
+  }
+}

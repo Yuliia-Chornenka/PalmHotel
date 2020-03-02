@@ -1,0 +1,49 @@
+@import "../variables";
+
+.gallery {
+  &-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    min-height: 900px;
+  }
+
+  &-img {
+    height: 300px;
+    width: 300px;
+    cursor: help;
+    &-big {
+      width: 600px;
+    }
+    &-description {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-sizing: border-box;
+      padding: 20px;
+      text-align: center;
+
+      &-title {
+        font-size: 22px;
+        color: white;
+        text-transform: capitalize;
+      }
+
+      &-close.close-btn{
+        top: 0;
+        right: 0;
+        border-radius: 0;
+        background-color: $main-color;
+        color: white;
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+  }
+}

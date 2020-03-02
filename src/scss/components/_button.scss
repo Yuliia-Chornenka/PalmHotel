@@ -1,0 +1,19 @@
+@import "../variables";
+
+.btn {
+  height: 50px;
+  width: 150px;
+  cursor: pointer;
+  border: 3px solid $main-color;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  color: $main-color;
+  outline: none;
+  border-radius: 7px;
+  &:hover {
+    background-color: $main-color;
+    color: white;
+    transition: all ease 0.4s;
+  }
+}

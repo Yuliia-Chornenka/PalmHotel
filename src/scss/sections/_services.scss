@@ -1,0 +1,54 @@
+@import "../variables";
+
+.services {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &-description {
+    visibility: hidden;
+  }
+
+  &-item {
+    width: 20%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+    padding: 15px;
+    cursor: pointer;
+
+
+    &:nth-of-type(n+9) {
+      margin-bottom: 0;
+    }
+
+    &:hover .services-description {
+      visibility: visible;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.9);
+      color: white;
+      font-size: 15px;
+      padding: 20px;
+      position: absolute;
+      transform:rotate(1turn);
+      transition-duration: 1s;
+    }
+
+  }
+
+  &-icon {
+    height: 100px;
+  }
+
+  &-name {
+    font-size: 21px;
+    font-weight: 500;
+    margin: 0;
+  }
+}
+

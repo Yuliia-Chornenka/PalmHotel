@@ -1,0 +1,137 @@
+@import "../variables";
+
+
+.our-villas {
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  &-example {
+    width: 32%;
+    height: 480px;
+    background-color: white;
+    margin-bottom: 20px;
+    position: relative;
+    box-shadow: 0 3px 6px 3px #dcdcdc;
+    &-photo {
+      width: 100%;
+      height: 100%;
+      transform: scale(1);
+      transition: 0.3s all;
+      &-wrapper {
+        width: 100.6%;
+        height: 220px;
+        margin: -1px -1px 8px -1px;
+        overflow: hidden;
+        &:hover .our-villas-example-photo {
+          transform: scale(1.5);
+        }
+      }
+    }
+    &-price {
+      position: absolute;
+      width: 75px;
+      height: 75px;
+      padding: 10px;
+      border-radius: 50%;
+      box-shadow: 0 3px 6px 0 #dcdcdc;
+      top: 135px;
+      right: 25px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      text-align: center;
+      background-color: white;
+      animation: pulsing 2s infinite;
+      &-quantity {
+        font-size: 24px;
+        font-weight: 600;
+        font-style: italic;
+        margin: 6px 0 0 0;
+        color: $main-color;
+        &::selection {
+          color: white;
+        }
+      }
+      &-night {
+        font-size: 14px;
+        color: grey;
+        font-style: italic;
+        margin: -12px 0 0 0;
+      }
+    }
+    &-name {
+      text-decoration: none;
+      font-size: 21px;
+      font-weight: 600;
+      padding-left: 20px;
+      color: $main-color;
+      letter-spacing: 1px;
+      &::selection {
+        color: white;
+      }
+    }
+    &-description {
+      padding-left: 20px;
+      font-size: 15px;
+      margin-bottom: -15px;
+      &:last-of-type {
+        margin-top: 30px;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      &:first-of-type {
+        margin: 6px 0 0 0;
+      }
+      &-icon {
+        height: 35px;
+        position: relative;
+        top: 10px;
+        margin-right: 5px;
+        &-second {
+          height: 29px;
+        }
+        &-third {
+          height: 40px;
+          top: 14px;
+        }
+      }
+      &-text {
+        font-weight: 600;
+        margin-right: 12px;
+      }
+    }
+
+    &-icon {
+      border: 1px solid grey;
+      padding: 8px;
+      border-radius: 50%;
+      height: 32px;
+      margin: 10px 20px 0 0;
+    }
+    &-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      box-sizing: border-box;
+    }
+  }
+}
+
+
+@keyframes pulsing {
+  0% {
+    transform: scale(1.0, 1.0);
+  }
+  50% {
+    transform: scale(0.95, 0.95);
+  }
+  100% {
+    transform: scale(1.0, 1.0);
+  }
+}

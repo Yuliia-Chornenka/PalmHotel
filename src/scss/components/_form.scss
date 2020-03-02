@@ -1,0 +1,74 @@
+@import "../variables";
+
+#register-form, #login-form, #review-form {
+  text-align: center;
+  padding: 20px;
+}
+
+#review-search-not-found {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-error-message {
+  color: #ff0303;
+  visibility: hidden;
+  margin: -12px 0 2px 0;
+  text-align: left;
+  font-size: 13px;
+  &::selection {
+    color: white;
+  }
+}
+
+.input {
+  display: block;
+  height: 50px;
+  width: 350px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding: 1px 6px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+    border: none;
+    box-shadow: 0 3px 8px #d6d6d6;
+  }
+}
+
+.submit-btn {
+  cursor: pointer;
+  text-align: center;
+  border-radius: 7px;
+  background-color: white;
+  color: $light-black;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 12px 20px;
+  margin-top: 10px;
+
+  &:hover {
+    background-color: $main-color;
+    color: white;
+    transition: 0.3s;
+  }
+}
+
+.search {
+  &-data-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  &-input.input {
+    margin: 0 20px 0 0;
+  }
+}

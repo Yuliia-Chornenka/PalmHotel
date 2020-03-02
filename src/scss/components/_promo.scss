@@ -1,0 +1,78 @@
+.promo {
+  &-wrapper {
+    height: 200px;
+    background: url("../img/header/slider_1.jpg") fixed 50% -40px no-repeat;
+    margin: 85px 0;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+    }
+
+  }
+
+  &-book-btn {
+    z-index: 10;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+
+  &-name {
+    z-index: 10;
+    position: relative;
+    width: 50%;
+    &-title {
+      font-size: 26px;
+      color: white;
+      text-transform: capitalize;
+      margin-top: 10px;
+    }
+  }
+
+  &-time {
+    text-transform: uppercase;
+    z-index: 10;
+    position: relative;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    &-title {
+      font-size: 16px;
+      color: white;
+    }
+
+    &-date {
+      display: inline-block;
+      font-size: 17px;
+      color: #d6d6d6;
+      text-align: center;
+    }
+
+    &-timer {
+      color: white;
+      font-size: 34px;
+      display: block;
+      width: 85px;
+      text-align: center;
+    }
+  }
+}
+
