@@ -1,0 +1,641 @@
+{
+
+  "users": [
+    {
+      "email": "blackyulia583@yandex.ru",
+      "name": "Black_Yulia",
+      "password": "123456",
+      "id": 1
+    }
+  ],
+
+
+  "menu": [
+    {
+      "img": "img/menu/dessert/1.jpg",
+      "name": "cheesecake new york",
+      "ingredients": "Philadelphia cheese, lemon juice, fruits",
+      "price": "15",
+      "category": "dessert"
+    },
+    {
+      "img": "img/menu/dessert/2.jpg",
+      "name": "Pancakes With Fruits",
+      "ingredients": "Pancakes, strawberry, raspberry",
+      "price": "12",
+      "category": "dessert"
+    },
+    {
+      "img": "img/menu/dessert/3.jpg",
+      "name": "Milk Shake With Fruits",
+      "ingredients": "Milk shake, strawberry, raspberry",
+      "price": "11",
+      "category": "dessert"
+    },
+    {
+      "img": "img/menu/dessert/4.jpg",
+      "name": "Sand Basket With Fruits",
+      "ingredients": "Sand basket, cream, mango, peaches",
+      "price": "16",
+      "category": "dessert"
+    },
+    {
+      "img": "img/menu/dessert/5.jpg",
+      "name": "cheesecake coney island",
+      "ingredients": "Cream cheese, peanuts, blueberries",
+      "price": "18",
+      "category": "dessert"
+    },
+    {
+      "img": "img/menu/dessert/6.jpg",
+      "name": "fruits with cream",
+      "ingredients": "Chocolate, cream, orange, banana",
+      "price": "14",
+      "category": "dessert"
+    },
+    {
+      "img": "img/menu/dessert/7.jpg",
+      "name": "Pancakes With Fruits",
+      "ingredients": "Pancakes, blueberries, mango",
+      "price": "15",
+      "category": "dessert"
+    },
+    {
+      "img": "img/menu/dessert/8.jpg",
+      "name": "custard cake",
+      "ingredients": "Сustard cake, сaramel syrup",
+      "price": "19",
+      "category": "dessert"
+    },
+    {
+      "img": "img/menu/dessert/9.jpg",
+      "name": "Chocolate Cake",
+      "ingredients": "Chocolate cake, ice cream",
+      "price": "13",
+      "category": "dessert"
+    },
+    {
+      "img": "img/menu/dessert/10.jpg",
+      "name": "Curd Pancakes With Fruits",
+      "ingredients": "Curd Pancakes, raspberry",
+      "price": "21",
+      "category": "dessert"
+    },
+    {
+      "img": "img/menu/main/1.jpg",
+      "name": "Grilled Beef with potatoes",
+      "ingredients": "Meat, potatoes, tomatoes",
+      "price": "41",
+      "category": "main"
+    },
+    {
+      "img": "img/menu/main/2.jpg",
+      "name": "grilled ribs",
+      "ingredients": "Pork ribs, barbeque sauce",
+      "price": "36",
+      "category": "main"
+    },
+    {
+      "img": "img/menu/main/3.jpg",
+      "name": "Vegetable Salad",
+      "ingredients": "Cucumber, tomatoes, red pepper, radish",
+      "price": "21",
+      "category": "main"
+    },
+    {
+      "img": "img/menu/main/4.jpg",
+      "name": "Baked Chicken Drumsticks",
+      "ingredients": "Сhicken drumsticks with carrot salad",
+      "price": "29",
+      "category": "main"
+    },
+    {
+      "img": "img/menu/main/5.jpg",
+      "name": "Baked Chicken",
+      "ingredients": "Сhicken, potatoes",
+      "price": "33",
+      "category": "main"
+    },
+    {
+      "img": "img/menu/main/6.jpg",
+      "name": "Vegetable Salad",
+      "ingredients": "Beetroot, carrot, goat’s cheese",
+      "price": "19",
+      "category": "main"
+    },
+    {
+      "img": "img/menu/main/7.jpg",
+      "name": "Grilled Fish",
+      "ingredients": "Swordfish steak, tomatoes, lime",
+      "price": "31",
+      "category": "main"
+    },
+    {
+      "img": "img/menu/main/8.jpg",
+      "name": "Udon Noodles",
+      "ingredients": "Udon noodles, green onion, baby spinach",
+      "price": "26",
+      "category": "main"
+    },
+    {
+      "img": "img/menu/main/9.jpg",
+      "name": "Grilled Shrimp",
+      "ingredients": "1 pound large shrimp",
+      "price": "38",
+      "category": "main"
+    },
+    {
+      "img": "img/menu/drinks/1.jpg",
+      "name": "Lemon Juice",
+      "ingredients": "Lemon juice 100%",
+      "price": "11",
+      "category": "drinks"
+    },
+    {
+      "img": "img/menu/drinks/2.jpg",
+      "name": "Wine",
+      "ingredients": "Homemade wine",
+      "price": "18",
+      "category": "drinks"
+    },
+    {
+      "img": "img/menu/drinks/3.jpg",
+      "name": "orange juice",
+      "ingredients": "Orange juice 100%",
+      "price": "12",
+      "category": "drinks"
+    },
+    {
+      "img": "img/menu/drinks/4.jpg",
+      "name": "beer",
+      "ingredients": "Craft beer",
+      "price": "13",
+      "category": "drinks"
+    },
+    {
+      "img": "img/menu/drinks/5.jpg",
+      "name": "Aperol Spritz",
+      "ingredients": "Aperol, prosecco, club soda",
+      "price": "16",
+      "category": "drinks"
+    },
+    {
+      "img": "img/menu/drinks/6.jpg",
+      "name": "Guava Juice",
+      "ingredients": "Guava juice 100%",
+      "price": "11",
+      "category": "drinks"
+    },
+    {
+      "img": "img/menu/drinks/7.jpg",
+      "name": "mojito",
+      "ingredients": "White rum, club soda, fresh mint leaves",
+      "price": "19",
+      "category": "drinks"
+    },
+    {
+      "img": "img/menu/drinks/8.jpg",
+      "name": "Whiskey Passion Cocktail",
+      "ingredients": "Whiskey, grapefruit juice, lemon juice",
+      "price": "22",
+      "category": "drinks"
+    },
+    {
+      "img": "img/menu/drinks/9.jpg",
+      "name": "Milk Shake With Fruit",
+      "ingredients": "Milk, strawberry ice cream, banana",
+      "price": "15",
+      "category": "drinks"
+    },
+    {
+      "img": "img/menu/drinks/10.jpg",
+      "name": "Cocktail With Ice",
+      "ingredients": "Ьix of citrus juices with ice",
+      "price": "17",
+      "category": "drinks"
+    }
+  ],
+
+
+  "img": [
+    {
+      "name": "beach on our island",
+      "url": "img/about/girl.jpg"
+    },
+    {
+      "name": "beach on our island",
+      "url": "img/about/ocean.png"
+    },
+    {
+      "name": "pancakes with fruits",
+      "url": "img/menu/dessert/2.jpg"
+    },
+    {
+      "name": "milk shake with fruits",
+      "url": "img/menu/dessert/3.jpg"
+    },
+    {
+      "name": "our island",
+      "url": "img/header/slider_1.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "our island",
+      "url": "img/header/slider_2.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "beach villa room",
+      "url": "img/header/slider_3.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "swimming pool near the bar in the evening",
+      "url": "img/gallery/8.png",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "lemon juice",
+      "url": "img/menu/drinks/1.jpg"
+    },
+    {
+      "name": "Aperol Spritz",
+      "url": "img/menu/drinks/5.jpg"
+    },
+    {
+      "name": "milk shake with fruits",
+      "url": "img/menu/drinks/9.jpg"
+    },
+    {
+      "name": "cocktail with ice",
+      "url": "img/menu/drinks/10.jpg"
+    },
+    {
+      "name": "Aqua Villa",
+      "url": "img/villas/aqua-villas/1.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "Aqua Villa with jacuzzi",
+      "url": "img/villas/aqua-villas/2-jacuzzi.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "Aqua Villa family",
+      "url": "img/villas/aqua-villas/3-family.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "Beach Villa",
+      "url": "img/villas/beach-villas/1.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "sand basket with fruits",
+      "url": "img/menu/dessert/4.jpg"
+    },
+    {
+      "name": "pancakes with fruits",
+      "url": "img/menu/dessert/7.jpg"
+    },
+    {
+      "name": "chocolate cake",
+      "url": "img/menu/dessert/9.jpg"
+    },
+    {
+      "name": "Aqua Villa family",
+      "url": "img/gallery/1.jpg"
+    },
+    {
+      "name": "Ocean front Villa family",
+      "url": "img/villas/ocean-front-villas/3-family.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "our island",
+      "url": "img/gallery/2.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "Aqua Villa",
+      "url": "img/gallery/3.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "snorkeling",
+      "url": "img/gallery/4.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "curd pancakes with fruits",
+      "url": "img/menu/dessert/10.jpg"
+    },
+    {
+      "name": "grilled shrimp",
+      "url": "img/menu/main/9.jpg"
+    },
+    {
+      "name": "vegetable salad",
+      "url": "img/menu/main/3.jpg"
+    },
+    {
+      "name": "swimming pool near the bar",
+      "url": "img/gallery/7.jpg"
+    },
+    {
+      "name": "our island with all villas",
+      "url": "img/gallery/6.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "Beach Villa with jacuzzi",
+      "url": "img/villas/beach-villas/2-jacuzzi.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "Beach Villa family",
+      "url": "img/villas/beach-villas/3-family.png",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "our island",
+      "url": "img/gallery/9.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "cheesecake",
+      "url": "img/menu/dessert/1.jpg"
+    },
+    {
+      "name": "grilled fish",
+      "url": "img/menu/main/7.jpg"
+    },
+    {
+      "name": "Ocean front Villa with jacuzzi",
+      "url": "img/villas/ocean-front-villas/2-jacuzzi.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "Ocean front Villa",
+      "url": "img/villas/ocean-front-villas/1.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "swimming pool near the bar",
+      "url": "img/gallery/5.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "our island",
+      "url": "img/gallery/10.jpg",
+      "className": "gallery-img-big"
+    },
+    {
+      "name": "our island",
+      "url": "img/gallery/11.jpg",
+      "className": "gallery-img-big"
+    }
+  ],
+
+
+  "review": [
+    {
+      "rate": "Excellent: 5★",
+      "description": "The staff was super friendly and always smiling. We got the overwater suite and it was perfect. The hotel is brand new, and everything is in perfect conditions. The food was really delicious and all included. Good wines, good champagnes, we really loved the time we spent there.",
+      "name": "Angelica",
+      "id": 1
+    },
+    {
+      "rate": "Great: 4★",
+      "description": "The place is really great - especially if you travel with kids. It has some facilities, and it's very clean. The beach is beautiful, the water amazing, we loved it.",
+      "name": "Diana",
+      "id": 2
+    },
+    {
+      "rate": "Excellent: 5★",
+      "description": "All meals were excellent, variety make the scene. The rooms are comfy and staff availability and kindness, all very polite. Lots of outdoor activities. Drinks by the pool also good!",
+      "name": "Máyra",
+      "id": 3
+    },
+    {
+      "rate": "Excellent: 5★",
+      "description": "Overall the stay was magnificent. The privacy, peacefulness, wonderful water colors, just amazing.",
+      "name": "Martin",
+      "id": 4
+    },
+    {
+      "rate": "Poor: 2★",
+      "description": "Please improve your management and get everything ready. Telling NO to the customers is the worst.",
+      "name": "Dimitar",
+      "id": 5
+    },
+    {
+      "rate": "Great: 4★",
+      "description": "You can’t find a better location! It was perfect! Just gorgeous! The staff serving drinks and food were very attentive and friendly. The facilities are modern, very clean, and spacious.",
+      "name": "Shehan",
+      "id": 6
+    },
+    {
+      "rate": "Average: 3★",
+      "description": "At the beach were only beach chairs but no umbrellas and the chairs were sometimes also taken from not hotel guest.",
+      "name": "Pascal",
+      "id": 7
+    }
+  ],
+
+
+  "villas": [
+    {
+      "name": "Aqua Villa",
+      "img": "img/villas/aqua-villas/1.jpg",
+      "quantityVillas": "18",
+      "quantityGuests": "3",
+      "pricePerNight": "500",
+      "id": "18",
+      "quantityPerDay": {
+        "02": [0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "03": [0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "04": [0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "05": [0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "06": [0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "07": [0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "08": [0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "09": [0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "10": [0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "11": [0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18],
+        "12": [0, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18, 18]
+      }
+    },
+    {
+      "name": "Aqua Villa with Jacuzzi",
+      "img": "img/villas/aqua-villas/2-jacuzzi.jpg",
+      "quantityVillas": "10",
+      "quantityGuests": "2",
+      "pricePerNight": "550",
+      "id": "10",
+      "quantityPerDay": {
+        "02": [0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "03": [0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "04": [0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "05": [0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "06": [0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "07": [0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "08": [0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "09": [0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "10": [0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "11": [0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "12": [0, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10]
+      }
+
+    },
+    {
+      "name": "Aqua Villa Family",
+      "img": "img/villas/aqua-villas/3-family.jpg",
+      "quantityVillas": "6",
+      "quantityGuests": "6",
+      "pricePerNight": "600",
+      "id": "6",
+      "quantityPerDay": {
+        "02": [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+        "03": [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+        "04": [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+        "05": [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+        "06": [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+        "07": [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+        "08": [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+        "09": [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+        "10": [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+        "11": [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6],
+        "12": [0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+      }
+
+    },
+    {
+      "name": "Beach Villa",
+      "img": "img/villas/beach-villas/1.jpg",
+      "quantityVillas": "24",
+      "quantityGuests": "2",
+      "pricePerNight": "300",
+      "id": "24",
+      "quantityPerDay": {
+        "02": [0, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24],
+        "03": [0, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24],
+        "04": [0, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24],
+        "05": [0, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24],
+        "06": [0, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24],
+        "07": [0, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24],
+        "08": [0, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24],
+        "09": [0, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24],
+        "10": [0, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24],
+        "11": [0, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24],
+        "12": [0, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24]
+      }
+    },
+    {
+      "name": "Beach Villa Family",
+      "img": "img/villas/beach-villas/3-family.png",
+      "quantityVillas": "16",
+      "quantityGuests": "5",
+      "pricePerNight": "400",
+      "id": "16",
+      "quantityPerDay": {
+        "02": [0, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "03": [0, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "04": [0, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "05": [0, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "06": [0, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "07": [0, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "08": [0, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "09": [0, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "10": [0, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "11": [0, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16],
+        "12": [0, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+      }
+    },
+    {
+      "name": "Beach Villa with Jacuzzi",
+      "img": "img/villas/beach-villas/2-jacuzzi.jpg",
+      "quantityVillas": "14",
+      "quantityGuests": "2",
+      "pricePerNight": "350",
+      "id": "14",
+      "quantityPerDay": {
+        "02": [0, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "03": [0, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "04": [0, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "05": [0, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "06": [0, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "07": [0, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "08": [0, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "09": [0, 14, 14, 14, 0, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "10": [0, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "11": [0, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14],
+        "12": [0, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14]
+      }
+    },
+    {
+      "name": "Ocean Front Villa",
+      "img": "img/villas/ocean-front-villas/1.jpg",
+      "quantityVillas": "20",
+      "quantityGuests": "2",
+      "pricePerNight": "400",
+      "id": "20",
+      "quantityPerDay": {
+        "02": [0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "03": [0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "04": [0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "05": [0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "06": [0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "07": [0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "08": [0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "09": [0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "10": [0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "11": [0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20],
+        "12": [0, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20]
+      }
+    },
+    {
+      "name": "Ocean Front Villa with Jacuzzi",
+      "img": "img/villas/ocean-front-villas/2-jacuzzi.jpg",
+      "quantityVillas": "15",
+      "quantityGuests": "2",
+      "pricePerNight": "450",
+      "id": "15",
+      "quantityPerDay": {
+        "02": [0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "03": [0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "04": [0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "05": [0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "06": [0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "07": [0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "08": [0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "09": [0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "10": [0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "11": [0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "12": [0, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15]
+      }
+
+    },
+    {
+      "name": "Ocean Front Villa Family",
+      "img": "img/villas/ocean-front-villas/3-family.jpg",
+      "quantityVillas": "12",
+      "quantityGuests": "4",
+      "pricePerNight": "500",
+      "id": "12",
+      "quantityPerDay": {
+        "02": [0, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
+        "03": [0, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
+        "04": [0, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
+        "05": [0, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
+        "06": [0, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
+        "07": [0, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
+        "08": [0, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
+        "09": [0, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
+        "10": [0, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
+        "11": [0, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12],
+        "12": [0, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12]
+      }
+    }
+  ]
+}
