@@ -5,5 +5,7 @@
 Для этого нужно сохранить файл PalmHotel.json отдельно и запустить сервер с помощью команды json-server --watch PalmHotel.json
 Если на компьютере не установлен JSON Server, нужно сначала его установить с помощью команды npm install -g json-server.
 Сервер обязательно должен быть запущен на 3000 порту.
+
 Документация JSON Server:
+
 https://www.npmjs.com/package/json-server
